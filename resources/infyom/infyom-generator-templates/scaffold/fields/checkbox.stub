@@ -1,0 +1,9 @@
+<div class="form-group">
+    <label class="control-label col-md-3">$FIELD_NAME_TITLE$?
+        <span class="required"> * </span>
+    </label>
+    <div class="col-md-4">
+        {{Form::hidden('$FIELD_NAME$',0)}}
+        <input type="checkbox" name="$FIELD_NAME$" class="make-switch" data-on-color="success" data-off-color="danger" data-on-text="Sim" data-off-text="Não" value="1">
+    </div>
+</div>

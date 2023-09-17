@@ -1,0 +1,11 @@
+<!-- $FIELD_NAME_TITLE$ Field -->
+
+<div class="form-group">
+    <label class="control-label col-md-3" for="$FIELD_NAME$">
+        $FIELD_NAME_TITLE$
+        <span class="required"> * </span>
+    </label>
+    <div class="col-md-4">
+        <input type="text" name="$FIELD_NAME$" data-required="1" class="form-control" /> 
+    </div>
+</div>

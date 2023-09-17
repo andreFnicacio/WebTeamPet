@@ -1,0 +1,13 @@
+{
+    "name": "Guides",
+    "alias": "guides",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Guides\\Providers\\GuidesServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,16 @@
+# This is a sample build configuration for PHP.
+# Check our guides at https://confluence.atlassian.com/x/e8YWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+#image: php:latest
+image: atlassian/default-image:2
+
+pipelines:
+  branches:
+    dev:
+      - step:
+          script:
+          - apt-get update
+          - apt-get -qq install git-ftp
+          - git ftp push --force --user $STAGING_USERNAME --passwd $STAGING_PASSWORD ftp://vps.lifepet.com.br/public_html

@@ -1,73 +1,51 @@
-# Sistema Web de Back-Office para Plano de Saúde
+<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-Bem-vindo ao sistema web de back-office para o nosso plano de saúde. Este sistema foi projetado para fornecer aos administradores as ferramentas necessárias para gerenciar e supervisionar vários aspectos do nosso plano de saúde de forma eficiente. Abaixo, explicaremos como o sistema funciona e como executar o código PHP.
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+</p>
 
-## Visão Geral do Sistema
+## About Laravel
 
-Nosso sistema de back-office web oferece as seguintes funcionalidades:
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
 
-- **Gerenciamento de Usuários:** Adicione, atualize e remova usuários (funcionários, provedores de saúde e membros) com controle de acesso baseado em funções.
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-- **Gerenciamento de Políticas:** Crie e gerencie políticas de saúde, incluindo detalhes de cobertura, prêmios e critérios de elegibilidade.
+Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
 
-- **Processamento de Reivindicações:** Processe e gerencie eficientemente reivindicações de saúde enviadas por membros e provedores de saúde.
+## Learning Laravel
 
-- **Relatórios:** Gere relatórios abrangentes e análises para obter informações sobre o desempenho e a utilização do plano de saúde.
+Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
 
-- **Comunicação:** Comunique-se com membros e provedores de saúde por meio do sistema, incluindo notificações e atualizações.
+If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
 
-## Executando o Código PHP
+## Laravel Sponsors
 
-Para executar o código PHP do nosso sistema de back-office web, siga estas etapas:
+We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
 
-### 1. Clone este Repositório
+- **[Vehikl](http://vehikl.com)**
+- **[Tighten Co.](https://tighten.co)**
+- **[British Software Development](https://www.britishsoftware.co)**
+- **[Styde](https://styde.net)**
+- [Fragrantica](https://www.fragrantica.com)
+- [SOFTonSOFA](https://softonsofa.com/)
 
-Clone este repositório para o seu ambiente local usando o seguinte comando:
+## Contributing
 
-```sh
-git clone https://github.com/seu-nome-de-usuario/backoffice-plano-saude.git
-```
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
 
-Substitua `seu-nome-de-usuario` pelo seu nome de usuário do GitHub e `backoffice-plano-saude` pelo nome do repositório.
+## Security Vulnerabilities
 
-### 2. Configure um Ambiente PHP
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
-Certifique-se de ter um ambiente PHP configurado em sua máquina local. Você pode instalar o PHP usando uma pilha de servidor web como XAMPP ou configurando um ambiente de desenvolvimento local.
+## License
 
-### 3. Configure o Banco de Dados
-
-Configure um banco de dados (por exemplo, MySQL) e crie as tabelas necessárias. Você encontrará o esquema do banco de dados na pasta `database/` do repositório.
-
-### 4. Configure Variáveis de Ambiente
-
-Crie um arquivo `.env` na pasta raiz do projeto e configure as variáveis de ambiente necessárias, como detalhes de conexão com o banco de dados e chaves de API.
-
-### 5. Instale as Dependências
-
-Use o Composer para instalar as dependências do projeto executando:
-
-```sh
-composer install
-```
-
-### 6. Inicie o Servidor de Desenvolvimento PHP
-
-Inicie o servidor de desenvolvimento PHP com o seguinte comando na raiz do projeto:
-
-```sh
-php -S localhost:8000 -t public/
-```
-
-Este comando iniciará um servidor de desenvolvimento local, e você poderá acessar o sistema em seu navegador da web em `http://localhost:8000`.
-
-### 7. Acesse o Back-Office
-
-Acesse a URL do sistema (http://localhost:8000) para acessar o sistema de back-office web. Você pode fazer login com as credenciais de administrador fornecidas ou criar uma nova conta de administrador.
-
-## Suporte e Feedback
-
-Se você encontrar algum problema ou tiver dúvidas sobre como executar o código PHP ou usar o sistema de back-office web, não hesite em nos contatar. Estamos aqui para ajudar!
-
-```
-
-Este README revisado fornece uma visão geral do sistema de back-office web para o plano de saúde, suas funcionalidades e instruções detalhadas sobre como executar o código PHP para o sistema. Substitua `seu-nome-de-usuario` e `backoffice-plano-saude` pelos valores apropriados do seu nome de usuário no GitHub e nome do repositório. Se você tiver mais perguntas ou precisar de assistência adicional, fique à vontade para perguntar!
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)!

@@ -1,0 +1,15 @@
+<!-- $FIELD_NAME_TITLE$ Field -->
+<div class="form-group">
+    <label class="control-label col-md-3">$FIELD_NAME_TITLE$
+        <span class="required"> * </span>
+    </label>
+    <div class="col-md-4">
+        <select id="$FIELD_NAME$" name="$FIELD_NAME$" required placeholder="Selecione um cadastro" class="form-control select2">
+            <option></option>
+            @foreach($INPUT_ARR$ as $item)
+                <option value="{{ $item->id }}"
+                >{{ $item->id }}</option>
+            @endforeach
+        </select>
+    </div>
+</div>

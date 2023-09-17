@@ -1,0 +1,145 @@
+grupo,procedimento,copart,honorarios
+Consultas,Consulta comum,35,80
+Consultas,Consulta plantão,70,120
+Consultas,Consulta domiciliar,100,110
+Consultas,Retorno consulta comum (30 dias),0,0
+Especialistas,Dermatologia,50,160
+Especialistas,Cardiologia,100,160
+Especialistas,Oftalmologia,100,160
+Especialistas,Ortopedia,120,160
+Especialistas,Oncologia,120,160
+Especialistas,Nefrologia,120,160
+Especialistas,Neurologia,200,160
+Especialistas,Nutrologia,150,160
+Especialistas,Endocrinologia,120,160
+Especialistas,Gastroenterologia (novo),120,160
+Especialistas,Felinos (novo),120,130
+Especialistas,Reconsulta com especialista,20,60
+Vacinas,Vacina da raiva,35,55
+Vacinas,Vacina da gripe,30,60
+Vacinas,Vacina polivalente / quádrupla,30,70
+Vacinas,Vacina quintúpla,60,80
+Vacinas,Vacina Giárdia (novo),NC ,80
+Vacinas,Vacina Leishmaniose (novo),NC ,130
+Exames Simples,Teste de ﬂuoresceína,12,10
+Exames Simples,Teste de Schirmer,15,5
+Exames Simples,Relação proteína creatinina (RPC),40,38
+Exames Simples,Frutosamina,25,30
+Exames Simples,Relação sódio/potássio,25,20
+Exames Simples,Sódio,18,16
+Exames Simples,Relação albumina/globulina,20,20
+Exames Simples,Exame micológico de pele direto (tricograma),40,30
+Exames Simples,Potássio,17,15
+Exames Simples,Cálcio,17,16
+Exames Simples,GGT,20,18
+Exames Simples,AST (TGO),20,19
+Exames Simples,PT (proteínas totais),17,10
+Exames Simples,Albumina,17,18
+Exames Simples,Hemograma + plaquetas,25,23
+Exames Simples,E.Q.U. (urinálise),25,22
+Exames Simples,Colesterol total,20,20
+Exames Simples,Triglicerídeos,20,19
+Exames Simples,Exame de fezes (Técnica de Willis),20,23
+Exames Simples,Uréia,20,18
+Exames Simples,Fósforo,17,16
+Exames Simples,PPT,17,13
+Exames Simples,Fosfatase alcalina,17,18
+Exames Simples,Creatinina,20,18
+Exames Simples,Glicose,18,18
+Exames Simples,ALT (TGP),18,19
+Exames Simples,Raspado de pele (exame parasitológico de pele),25,24
+Exames Simples,Glicemia,12,15
+Exames Simples,Lipase ,20,20
+Exames Especiais,FIV/FELV teste rápido,70,120
+Exames Especiais,SDMA ,NC ,90
+Exames Especiais,T3 Total Radioimunoensaio ,NC ,54
+Exames Especiais,T4 Livre Radioimunoensaio ,NC ,54
+Exames Especiais,T4 Total Radioimunoensaio ,NC ,54
+Exames Especiais,TSH Quimioluminescência ,NC ,39
+Exames Especiais,Cultura bacteriológica/ antibiograma,NC ,44
+Exames Especiais,Cinomose teste rápido,NC ,72
+Exames Especiais,Parvovirose teste rápido,NC ,50
+Exames Especiais,Histopatológico (por peça),NC ,80
+Exames Especiais,Citopatológico (BAAF/CAAF),NC ,74
+Exames Especiais,Citologia de ouvido/pele (por ouvido) (pesquisa de malassezia e/ou cândida),NC ,40
+Exames Especiais,Giardia teste rápido ,NC ,70
+Exames Especiais,SNAP 4Dx,NC ,70
+Exames Especiais,Leishmaniose ELISA + RIFI ,NC ,75
+Exame de Imagem,Raio X (por projeção),60,60
+Exame de Imagem,Ultrassom abdominal,75,110
+Exame de Imagem,Ecocardiograma,120,160
+Exame de Imagem,Eletrocardiograma,95,80
+Procedimentos Clínicos,Coleta de material p/ exames cobertos,10,10
+Procedimentos Clínicos,Curativo simples,15,24
+Procedimentos Clínicos,Curativo complexo,40,40
+Procedimentos Clínicos,Soroterapia (ﬂuidoterapia),40,40
+Procedimentos Clínicos,Oxigenoterapia (p/ hora),50,50
+Procedimentos Clínicos,Imobilização de fratura simples,70,80
+Procedimentos Clínicos,Sutura de pele simples,50,50
+Procedimentos Clínicos,Retirada miíase / berne (retirada de bicheiras),60,80
+Procedimentos Clínicos,Sedação/tranquilização,100,80
+Procedimentos Clínicos,Retirada de espinhos,NC ,98
+Procedimentos Clínicos,Drenagem de abscesso (drenagem de ferida),NC ,52
+Procedimentos Clínicos,Coleta de material para biópsia (não invasiva),NC ,50
+Procedimentos Clínicos,Extração de canino decíduo (dente de leite),NC ,25
+Procedimentos Clínicos,Extração de dente permanente birradicular/multirradicular,NC ,45
+Procedimentos Clínicos,Extração de dente permanente unirradicular,NC ,40
+Procedimentos Clínicos,Coleta por cistocentese (amostra de urina),NC ,30
+Procedimentos Clínicos,Sutura de pele complexa,NC ,80
+Internação,Internação day-care,80,80
+Internação,Internação 24h,100,100
+Cirurgias: Sistema Reprodutivo,Piometra (infecção no útero),600,500
+Cirurgias: Sistema Reprodutivo,Castração criptorquida (abdominal),150,300
+Cirurgias: Sistema Reprodutivo,Cesariana (somente com castração),450,450
+Cirurgias: Sistema Reprodutivo,Cão macho - até 10kg,100,190
+Cirurgias: Sistema Reprodutivo,Cão macho - 10kg a 25kg,120,260
+Cirurgias: Sistema Reprodutivo,Cão macho - 25kg a 40kg,150,330
+Cirurgias: Sistema Reprodutivo,Cão macho - acima de 40kg,190,400
+Cirurgias: Sistema Reprodutivo,Cão fêmea - até 10kg,120,250
+Cirurgias: Sistema Reprodutivo,Cão fêmea - 10kg a 25kg,140,320
+Cirurgias: Sistema Reprodutivo,Cão fêmea - 25kg a 40kg,180,390
+Cirurgias: Sistema Reprodutivo,Cão fêmea - acima de 40kg,230,460
+Cirurgias: Sistema Reprodutivo,Gato macho,90,160
+Cirurgias: Sistema Reprodutivo,Gato fêma,120,160
+Anestesias,Anestesia geral até 15 kg,200,280
+Anestesias,Anestesia geral 16 a 25 kg,250,330
+Anestesias,Anestesia geral 26 a 40 kg,300,380
+Anestesias,Anestesia acima de 40 kg,350,430
+Anestesias,Anestesia local,45,40
+Limpeza de Tártaro,Limpeza de Tártaro,NC ,180
+Cirurgias Gerais,Anexos (pálpebra) entrópio e ectrópio unilateral,NC ,200
+Cirurgias Gerais,Enucleação unilateral (retirada do globo ocular),NC ,350
+Cirurgias Gerais,Enucleação bilateral (retirada dos globos oculares),NC ,430
+Cirurgias Gerais,Redução prolapso globo ocular,NC ,330
+Cirurgias Gerais,Retirada glândula da terceira pálpebra,NC ,200
+Cirurgias Gerais,Prolapso da terceira pálpebra (sepultamento),NC ,208
+Cirurgias Gerais,Otohematoma (cirurgia na orelha),NC ,160
+Cirurgias Gerais,Esplenectomia,NC ,520
+Cirurgias Gerais,Gastrotomia,NC ,450
+Cirurgias Gerais,Esofagotomia cervical,NC ,420
+Cirurgias Gerais,Traqueostomia,NC ,240
+Cirurgias Gerais,Hérnia inguinal,NC ,350
+Cirurgias Gerais,Neoplasia peniana,NC ,320
+Cirurgias Gerais,Neoplasia vulvo-vaginal (câncer de vulva),NC ,350
+Cirurgias Gerais,Neoplasia vulvar retal (câncer de vulva e reto),NC ,380
+Cirurgias Gerais,Hernia umbilical,NC ,250
+Cirurgias Gerais,Nefrectomia,NC ,400
+Cirurgias Gerais,Hernia perianal,NC ,420
+Cirurgias Gerais,Laparotomia exploratória (abertura cav. abdominal),NC ,500
+Cirurgias Gerais,Prostatectomia (retirada da próstata),NC ,340
+Cirurgias Gerais,Cistotomia (cirurgia de bexiga),NC ,300
+Cirurgias Gerais,Enterectomia,NC ,410
+Cirurgias Gerais,Penectomia (retirada do pênis),NC ,450
+Cirurgias Gerais,Neoplasia anorretal (câncer anal),NC ,300
+Cirurgias Gerais,Uretrostomia (cirurgia de uretra),NC ,300
+Cirurgias Gerais,Neoplasia mamária cadeia unilateral (câncer de mama),NC ,450
+Cirurgias Gerais,Neoplasia mamária cadeia bilateral (câncer de mama),NC ,550
+Cirurgias Gerais,Neoplasia gengival (câncer de gengiva),NC ,200
+Cirurgias Gerais,Osteossíntese (sem prótese e órtese),NC ,600
+Cirurgias Gerais,Rompimento ligamento unilateral,NC ,750
+Cirurgias Gerais,Rompimento ligamento biliateral,NC ,800
+Cirurgias Gerais,Amputação de membros,NC ,600
+Outros Serviços,Avaliação Inicial (microchipagem),25,25
+Outros Serviços,Telemedicina (exceto risco de morte),15,50
+Outros Serviços,Sala de atendimento volante,45,60
+Outros Serviços,Bloco cirúrgico,70,100

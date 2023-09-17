@@ -1,0 +1,13 @@
+{
+    "name": "Veterinaries",
+    "alias": "veterinaries",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Veterinaries\\Providers\\VeterinariesServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

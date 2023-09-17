@@ -1,0 +1,13 @@
+{
+    "name": "Vindi",
+    "alias": "vindi",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Vindi\\Providers\\VindiServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
